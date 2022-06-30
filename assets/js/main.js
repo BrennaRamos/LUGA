@@ -115,6 +115,18 @@
   }
 
   /**
+   * Change location button
+   */
+   let changelocation = select('.change-location')
+   if (changelocation) {
+     const toggleChangelocation = () => {
+         changelocation.classList.add('active')
+     }
+     window.addEventListener('load', toggleChangelocation)
+     onscroll(document, toggleChangelocation)
+   }
+
+  /**
    * Mobile nav toggle
    */
   on('click', '.mobile-nav-toggle', function(e) {
