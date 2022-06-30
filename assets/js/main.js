@@ -79,18 +79,6 @@
   }
 
   /**
-   * Side Navbar
-   */
-
-   function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    }
-    
-    function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    }
-
-  /**
    * Header fixed top on scroll
    */
   let selectHeader = select('#header')
