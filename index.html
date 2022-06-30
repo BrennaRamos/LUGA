@@ -55,7 +55,7 @@
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-      <nav id="navbar" class="navbar">
+    <!--  <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
@@ -83,14 +83,38 @@
           <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-      <a href="inner-page.html" class="change-location d-flex align-items-center justify-content-center"><i class="bi bi-pin-angle-fill"></i></a>
+      </nav> .navbar 
     </div>
 
-  </header><!-- End Header -->
+  -->
+  <a href="inner-page.html" class="change-location d-flex align-items-center justify-content-center"><i class="bi bi-pin-angle-fill"></i></a>
 
 
+  
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <span style="font-size: 30px; cursor: pointer; position: fixed; left: 15px; top: 15px;" onclick="openNav()">&#9776; open</span>
+
+  <script>
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+
+   
  
+</header><!-- End Header -->
 
 <!-- ======= About Us Section ======= -->
   <section id="about" class="about">
