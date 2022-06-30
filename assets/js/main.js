@@ -79,6 +79,17 @@
   }
 
   /**
+   * Sidebar Nav
+   */
+  function openNav() {
+    document.getElementById("sidebar").style.width = "250px";
+    }
+    
+    function closeNav() {
+    document.getElementById("sidebar").style.width = "0";
+    }
+
+  /**
    * Header fixed top on scroll
    */
   let selectHeader = select('#header')
